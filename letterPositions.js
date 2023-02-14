@@ -42,3 +42,5 @@ const letterPositions = function(sentence) {
 // test cases:
 // const sentence = "hello";
 // console.log(letterPositions(sentence));
+
+module.exports = letterPositions

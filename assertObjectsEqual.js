@@ -27,13 +27,15 @@ const assertObjectsEqual = function(actual, expected) {
 
 
 
-const objectOne = {
-  num : 1
-};
+// const objectOne = {
+//   num : 1
+// };
 
-const objectTwo = {
-  num : 1
-};
+// const objectTwo = {
+//   num : 1
+// };
 
-assertObjectsEqual(objectOne, objectTwo)
+// assertObjectsEqual(objectOne, objectTwo)
+
+module.exports = assertObjectsEqual
 

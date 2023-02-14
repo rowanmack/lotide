@@ -22,21 +22,21 @@ const countOnly = function(allItems, itemsToCount) {
   return results;
 };
 
-const firstNames = [
-  "Karl",
-  "Salima",
-  "Agouhanna",
-  "Fang",
-  "Kavith",
-  "Jason",
-  "Salima",
-  "Fang",
-  "Joe"
-];
+// const firstNames = [
+//   "Karl",
+//   "Salima",
+//   "Agouhanna",
+//   "Fang",
+//   "Kavith",
+//   "Jason",
+//   "Salima",
+//   "Fang",
+//   "Joe"
+// ];
 
-const objectForFunction = { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false };
+// const objectForFunction = { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false };
 
-console.log(countOnly(firstNames, objectForFunction));
+// console.log(countOnly(firstNames, objectForFunction));
 
 // const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false });
 
@@ -44,3 +44,5 @@ console.log(countOnly(firstNames, objectForFunction));
 // assertEqual(result1["Karima"], undefined);
 // assertEqual(result1["Fang"], 2);
 // assertEqual(result1["Agouhanna"], undefined);
+
+module.exports = countOnly
